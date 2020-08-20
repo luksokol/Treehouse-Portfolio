@@ -76,6 +76,33 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
+/* ABOUT */
+#about {
+  background: url('./images/portland.jpg') no-repeat center center/cover;
+  height: 80vh;
+}
+
+#about .container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+#about .profile-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 30px;
+}
+
+#about .profile-image:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -166,6 +193,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
